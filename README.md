@@ -33,11 +33,6 @@ Update
 Install as usual.
 
 ```bash
-$ git clone https://github.com/iCyberon/pg_hashids
-$ cd pg_hashids
-# Make sure your path includes the bin directory that contains the correct `pg_config`
-$ PATH=/path/to/pg/bin:$PATH
-$ USE_PGXS=1 make
 $ USE_PGXS=1 make install
 ```
 
